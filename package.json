@@ -3,14 +3,12 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
- "scripts": {
-  "dev": "vite",
-  "build": "vite build",       
-  "preview": "vite preview"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
     "@mui/icons-material": "7.3.5",
@@ -51,9 +49,11 @@
     "lucide-react": "0.487.0",
     "motion": "12.23.24",
     "next-themes": "0.4.6",
-    "react-day-picker": "8.10.1",
+    "react": ">=19.0.0",
+    "react-day-picker": "^9.13.2",
     "react-dnd": "16.0.1",
     "react-dnd-html5-backend": "16.0.1",
+    "react-dom": ">=19.0.0",
     "react-hook-form": "7.55.0",
     "react-popper": "2.3.0",
     "react-resizable-panels": "2.1.7",
