@@ -1,16 +1,16 @@
 import { ZodiacBackground } from './ZodiacBackground';
-
+import ScrollBackground from './ScrollBackground';
 export function HeroSection() {
   return (
     <section className="min-h-screen flex items-center justify-center relative overflow-hidden">
-      <ZodiacBackground />
+      <ScrollBackground />
 
       <div className="relative z-10 text-center px-4 max-w-6xl">
         <p className="text-2xl md:text-3xl text-purple-200 italic mb-8 animate-fadeInDown" style={{ fontFamily: 'var(--font-mystical)' }}>
           Not magic. Just stardust and algorithms.
         </p>
 
-        <div className="flex items-center justify-center gap-4 md:gap-8 mb-12 flex-wrap">
+        <div className="flex items-center justify-center gap-4 md:gap-8 mb-12 flex-wrap md:flex-nowrap">
           <div className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-amber-100 tracking-wider drop-shadow-[0_0_30px_rgba(251,191,36,0.3)] animate-fadeInLeft" style={{ fontFamily: 'var(--font-serif)' }}>
             CELE
           </div>
@@ -23,7 +23,6 @@ export function HeroSection() {
           <div className="text-5xl sm:text-6xl md:text-8xl lg:text-9xl text-amber-100 tracking-wider drop-shadow-[0_0_30px_rgba(251,191,36,0.3)] animate-fadeInRight" style={{ fontFamily: 'var(--font-serif)' }}>
             STIK
           </div>
-
         </div>
 
         <div className="space-y-2 text-amber-100/90 animate-fadeInUp" style={{ fontFamily: 'var(--font-elegant)' }}>

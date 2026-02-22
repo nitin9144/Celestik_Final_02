@@ -9,6 +9,7 @@ export function HomePage() {
 
   return (
     <div className="min-h-screen">
+      
       <HeroSection />
       <HowItWorksSection />
       <TrustSection />
