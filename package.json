@@ -87,6 +87,11 @@
       "optional": true
     }
   },
+  "overrides": {
+    "react-popper": {
+      "react": "$react"
+    }
+  },
   "pnpm": {
     "overrides": {
       "vite": "6.3.5"
